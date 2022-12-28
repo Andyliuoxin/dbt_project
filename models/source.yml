@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: '区域经理视图'
+    description: "A starter dbt model"
+    columns:
+      - name: 区域经理
+        description: "描述-区域经理"
+      - name: 区域
+        description: "描述"
+        tests:
+          - unique
+          - not_null

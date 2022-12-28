@@ -1,0 +1,10 @@
+sources:
+  - name: sale_info
+    tables:
+      - name: orders
+      - name: people
+
+  - name: return_info
+    tables:
+      - name: returns
+

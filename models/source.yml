@@ -10,4 +10,15 @@ models:
         description: "描述"
         tests:
           - unique
-          - not_null
+          - not_nulli
+
+  - name: 'dw_shop_data'
+    description: "fact_model"
+    columns:
+      - name: row_id
+      - name: order_id
+      - name: order_date
+        tests:
+          - unique
+          - not_nulli
+

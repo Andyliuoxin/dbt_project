@@ -10,7 +10,8 @@ models:
         description: "描述"
         tests:
           - unique
-          - not_nulli
+          - not_null
 
   - name: 'dw_shop_data'
     description: "fact_model"
+

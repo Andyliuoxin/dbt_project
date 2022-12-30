@@ -15,3 +15,6 @@ models:
   - name: 'dw_shop_data'
     description: "fact_model"
 
+  - name: 'dm_shop_sum'
+    description: "app层"
+
